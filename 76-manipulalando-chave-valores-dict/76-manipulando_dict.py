@@ -1,6 +1,6 @@
 """
 Tópico: Manipulando chaves e valores em dicionários
-foco:
+foco: Atualização de valores, exclusão de chaves com del, uso do .get() e try/except
 """
 
 moto = {}
