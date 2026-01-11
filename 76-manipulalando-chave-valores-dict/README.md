@@ -8,4 +8,7 @@ Desenvolvi um dicionário, realizando a adição e alteração de valores. Pra t
 ### 📘 Conceitos
 O método .get() é a ferramenta para realizar buscas em dicionários. Ele aceita dois argumentos: a **cahve** que queremos buscar e um **valor de retorno opcional**
 * **Tratamento de Ausência:** Caso a chave não seja encontrada, o método evita que programa pare, retornando `None` por padrão ou um valor específicado.
+* Uma prática comum é combinar o `.get()` com estruturas condicionais (`if/else`). Utilizando os operadores `is None` ou `is not None`, é possível validar a existência do dado antes de processá-lo.
+* Garante que o programa não tente acessar diretamente um índice inexistente, eliminando o risco de erros,
+
 
