@@ -10,4 +10,6 @@ Este é o meu **"Laboratório de Aprendizado"**.
 - 🧪 **Objetivo:** Priorizar a prática diária e a resolução de problemas em vez da perfeição imediata.
 - 📂 **Organização:** Cada pasta representa um tópico que estou dominando no momento.
 
+---
+
 > "Melhor um código funcionando e em evolução do que um código perfeito que nunca foi escrito."
