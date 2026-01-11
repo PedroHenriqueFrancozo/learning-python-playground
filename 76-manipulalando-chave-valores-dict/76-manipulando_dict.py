@@ -1,27 +1,44 @@
-# Manipulando chaves e valores em dicionários
-pessoa = {}
+"""
+Tópico: Manipulando chaves e valores em dicionários
+foco:
+"""
 
-##
-##
+moto = {}
 
-chave = 'nome'
+chave = 'nome', 'ano', 'cc', 'hp', 'valor'
 
-pessoa[chave] = 'Luiz Otávio'
-pessoa['sobrenome'] = 'Miranda'
+moto['nome'] = 'S1000RR'
+moto['cc'] = 1000
+moto['hp'] = 200
+moto['ano'] = '2016'
+moto['valor'] = 65.000
 
+moto['nome'] = 'S1000R'
 
-print(pessoa[chave])
+print(moto)
+print(moto['nome'])
+ 
+print()
 
-pessoa[chave] = 'Maria'
+del moto['valor']
+print(moto)
 
-del pessoa['sobrenome']
-print(pessoa)
-print(pessoa['nome'])
+# Gerando keyError
+# print(moto['valor'])
 
-# print(pessoa.get('sobrenome'))
-if pessoa.get('sobrenome') is None:
-    print('NÃO EXISTE')
+print(moto.get('valor', None))
+print()
+
+# Outra maneira de utilizar o .get() com if is
+
+if moto.get('valor') is None:
+    print('Não Existe')
 else:
-    print(pessoa['sobrenome'])
+    print(moto['valor'])
 
-# print('ISSO Não vai')
+# Trantando erro com try/except
+
+try:
+    print(moto['valor'])
+except KeyError:
+    print('⚠️Aviso: A informção "valor" não está disponível.')
