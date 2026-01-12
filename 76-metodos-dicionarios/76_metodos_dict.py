@@ -26,7 +26,6 @@ print()
 
 
 # Exemplo de uma Shallow copy
-
 moto = {
     'moto1': 'z1000',
     'moto2': 'mt-09',
@@ -40,8 +39,8 @@ print(moto)
 print(moto2)
 print()
 
-# Realizando uma cópia profunda
 
+# Realizando uma cópia profunda
 moto3 = {
     'moto3': 'z1000',
     'moto4': 'mt-09',
