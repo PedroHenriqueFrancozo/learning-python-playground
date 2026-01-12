@@ -20,4 +20,18 @@ print(list(carro.items()))
 
 carro.setdefault('valor', 'Valor do carro ainda não está disponível')
 print(carro['valor'])
+print()
 
+
+# Exemplo de uma Shallow copy
+
+moto = {
+    'moto1': 'z1000',
+    'moto2': 'mt-09',
+}
+
+moto2 = moto
+
+# Alterando o valor do clone para ver a mudança no dicionário original.
+moto2['moto1'] = 's1000r'
+print(moto)
