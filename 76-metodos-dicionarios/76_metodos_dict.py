@@ -3,6 +3,8 @@ Topic: Métodos úteis dos dicionários
 Focus: Técnicas de iteralção utilizando os métodos .items(), .enumerate(), .keys(), .values(), .setdefault(), .copy(), .get(), .pop(), .popitem(), .update().
 """
 
+import copy # módolu copy
+
 carro = {
     'marca': 'Nissan',
     'nome': 'GT-R35 Nismo',
@@ -30,8 +32,24 @@ moto = {
     'moto2': 'mt-09',
 }
 
-moto2 = moto
+moto2 = moto.copy()
 
 # Alterando o valor do clone para ver a mudança no dicionário original.
 moto2['moto1'] = 's1000r'
 print(moto)
+print(moto2)
+print()
+
+# Realizando uma cópia profunda
+
+moto3 = {
+    'moto3': 'z1000',
+    'moto4': 'mt-09',
+}
+
+moto4 = copy.deepcopy(moto3)
+
+# Alterando o valor da cópia para ver que não será mais afetada 
+moto4['moto3'] = 's1000r'
+print(moto3)
+print(moto4)
