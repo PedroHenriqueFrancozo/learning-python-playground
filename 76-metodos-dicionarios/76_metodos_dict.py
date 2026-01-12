@@ -1,31 +1,28 @@
 """
 Topic: Métodos úteis dos dicionários
-Focus: 
+Focus: Técnicas de iteralção utilizando os métodos .items(), .enumerate(), .keys(), .values(), .setdefault(), .copy(), .get(), .pop(), .popitem(), .update().
 """
 
-# Métodos úteis dos dicionários em Python
-# len - quantas chaves
-# keys - iterável com as chaves
-# values - iterável com os valores
-# items - iterável com chaves e valores
-# setdefault - adiciona valor se a chave não existe
-# copy - retorna uma cópia rasa (shallow copy)
-# get - obtém uma chave
-# pop - Apaga um item com a chave especificada (del)
-# popitem - Apaga o último item adicionado
-# update - Atualiza um dicionário com outro
-pessoa = {
-    'nome': 'Luiz Otávio',
-    'sobrenome': 'Miranda',
-    'idade': 900,
-}
+carro = {
+    'marca': 'Nissan',
+    'nome': 'GT-R35 Nismo',
+    'ano': '2020',
+}   
 
-pessoa.setdefault('idade', 0)
-print(pessoa['idade'])
-# print(len(pessoa))
-# print(list(pessoa.keys()))
-# print(list(pessoa.values()))
-# print(list(pessoa.items()))
+print(len(carro))
+print()
+print(list(carro.keys()))
+print()
+print(list(carro.values()))
+print()
+print(list(carro.items()))
+
+
+
+
+# pessoa.setdefault('idade', 0)
+# print(pessoa['idade'])
+
 
 # for valor in pessoa.values():
 #     print(valor)
