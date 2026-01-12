@@ -52,3 +52,20 @@ moto4 = copy.deepcopy(moto3)
 moto4['moto3'] = 's1000r'
 print(moto3)
 print(moto4)
+print()
+
+# utilização do método update usado para alterar valor ou criar um novo valor
+p1 = {
+    'nome': 'pedro',
+    'idade': '23',
+}
+
+p1.update({
+    'nome': 'Pedro Henrique',
+    'altura': '1.80'
+})
+
+# outra forma de passar os valores
+p1.update(nome='novo valor', idade=18)
+
+print(p1)
