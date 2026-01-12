@@ -7,6 +7,7 @@ carro = {
     'marca': 'Nissan',
     'nome': 'GT-R35 Nismo',
     'ano': '2020',
+    # 'valor': 120000,
 }   
 
 print(len(carro))
@@ -17,15 +18,6 @@ print(list(carro.values()))
 print()
 print(list(carro.items()))
 
+carro.setdefault('valor', 'Valor do carro ainda não está disponível')
+print(carro['valor'])
 
-
-
-# pessoa.setdefault('idade', 0)
-# print(pessoa['idade'])
-
-
-# for valor in pessoa.values():
-#     print(valor)
-
-# for chave, valor in pessoa.items():
-#     print(chave, valor)

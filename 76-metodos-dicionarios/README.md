@@ -32,5 +32,6 @@ Ao utilizar métodos como `.keys()` ou `.items()`, o Python retorna objetos do t
 * [x] Diferença entre Lista e Dicionário (Índice vs Chave)
 * [x] Adicionar, Alterar e Deletar (`del`)
 * [x] Uso do `.get()` para evitar `KeyError`
+* [x] Uso do `setdefault()` para garantir uma chave com valor padrão (sem sobrescrever caso ela já exista).
 * [x] Iteração com `.items()`
 * [x] Diferença entre Shallow e Deep Copy
