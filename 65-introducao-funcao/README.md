@@ -10,7 +10,7 @@ Nesta aula, compreendi que a função é utilizada para replicar uma determinada
 * **Retorno (return):** Elas podem devolver um valor específico após a execução.
 
 ---
-### Definição Rápidas
+### 📝 Definição Rápidas:
 
 * Parâmetro: É nome definido na criação da função (Ex: `def soma(a, b):` -> `a` e `b` são parâmetro).
 * Argumento: É valor passado na execução (Ex: `soma(10, 5)` -> `10` e `5` são argumentos). 
