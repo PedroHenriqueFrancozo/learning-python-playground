@@ -7,3 +7,11 @@ Nesta aula, compreendi a diferença entre referenciar e executar uma função.
 * Se eu citar apenas o nome da função (sem os parênteses `()`), o Python retornará a **referênciado objeto** na memória (o endereço onde elea está guardada).
 * Argumentos Posicionais: São aqueles que dependem da ordem em que são passados. O primeiro argumento enviado preencherá o primeiro parâmetro definido, e assim por diante.
 * Argumentos Nomeados (Keywords): São passados indicando explicitamente o nome do parâmetro (ex: `nome="Pedro"`). Nesse caso, a ordem não importa, pois o Python utiliza o nome para fazer a associação.
+
+---
+
+### ✅ Checkpoint de Aprendizado
+
+[x] Entendi que o nome da função sem `()` é um objeto na memória.
+[x] Compreendi que sem o `return`, o retorno padrão é `None`.
+[x] Diferenciei argumentos posicionais (ordem) de nomeados (chave=valor).

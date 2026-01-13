@@ -7,7 +7,7 @@ def soma(x, y):
     # Definição
     print(x + y)
 
-print(soma) # Está referindo ao nome da função
+print(soma) # Referência de memória
 
 print(soma(1, 1)) # Por padrão esse print irá retornar None, pois ele não retorna nada
 print()
@@ -16,5 +16,5 @@ print()
 def soma1 (x, y):
     print(f'{x=} y={y}', '|' 'x + y =', x + y )
 
-soma1(2, 3) # A ordem do argumento importa dessa forma
-soma1(y=2, x=3) # nomenado o argumento
+soma1(2, 3) # Argumento Posicional: A ordem define quem é X e quem é Y.
+soma1(y=2, x=3) # Argumento Nomeado: O nome define o alvo, ignorando a ordem.
