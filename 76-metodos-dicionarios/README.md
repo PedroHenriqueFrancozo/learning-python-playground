@@ -33,5 +33,7 @@ Ao utilizar métodos como `.keys()` ou `.items()`, o Python retorna objetos do t
 * [x] Adicionar, Alterar e Deletar (`del`)
 * [x] Uso do `.get()` para evitar `KeyError`
 * [x] Uso do `setdefault()` para garantir uma chave com valor padrão (sem sobrescrever caso ela já exista).
+* [x] Uso do `update()` para atualizar um valor e criar um novo valor e também aceita argumentos nomeados ou uma lista de tuplas.
 * [x] Iteração com `.items()`
 * [x] Diferença entre Shallow e Deep Copy
+* [x] Realizado teste pático sobre Shallow e Deep Copy
