@@ -2,7 +2,7 @@
 
 Nesta aula, compreendi que a função é utilizada para replicar uma determinada ação ao longo do código, eliminando a necessidade de repetir o mesmo trecho várias vezes.
 
-### conveitos
+### 📘 conceitos:
 
 * **Parâmetros e Argumentos:** As funções podem receber valores de entrada para processar dados dinamicamente.
 * **Parâmetros:** São as "variáveis que definimos (detro dos parênteses do `def`).
