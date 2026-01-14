@@ -1,1 +1,3 @@
 # Aula 68 Escopo de função e módulos 📋
+
+Nesta aula, aprendi que se eu tenho um **escopo fechado** dentro de uma função, o código executado ali dentro não afetará o que está fora em determinados momentos. O **escopo global** é aquele onde todo o código é alcançável (visível). Já o **escopo local** é o ambiente interno de uma função, onde apenas os nomes definidos naquele mesmo local podem ser acessados.
