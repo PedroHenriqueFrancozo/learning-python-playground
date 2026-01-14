@@ -1,5 +1,5 @@
 """
-Topic: 
+Topic: Função Lambda + list.sort e sorted + Ordenação
 """
 
 lista = [

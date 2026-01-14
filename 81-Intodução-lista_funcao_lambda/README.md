@@ -12,3 +12,7 @@ Nesta aula, compreendi o uso das **funções lambda**. Elas são funções anôn
 
 * `lista.sort():` Altera a lista original. É mais eficiente em memória, mas "destrói" a ordem antiga.
 * `sorted(lista):` Retorna uma **nova lista** (cópia rasa), preservando a original intacta.`
+
+### 🛠️ Ensinando o Python a Ordenar
+
+* Dicionários não possuem uma ordem natural de "maior ou menor". Por isso, usamos o parâmetro **key** com uma lambda para extrair o valor que servirá de base para a comparação.
