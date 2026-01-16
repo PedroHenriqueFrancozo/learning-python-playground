@@ -1,4 +1,4 @@
-def executa(funcao, *args):
+def executa(funcao, *args): # função de ordem superior que recebe outras funções como parâmetro e a executa usando o desempacotamento de *args
     return funcao(*args)
 
 
@@ -13,12 +13,15 @@ def executa(funcao, *args):
 
 
 # duplica = cria_multiplicador(2)
+
+# Função duplica qe sempre multiplicará qualquer número por 2
 duplica = executa(
     lambda m: lambda n: n * m,
     2
 )
 print(duplica(2))
 
+# Como passar multiplos argumentos posicionais para uma lambda anônima.
 print(
     executa(
         lambda x, y: x + y,
