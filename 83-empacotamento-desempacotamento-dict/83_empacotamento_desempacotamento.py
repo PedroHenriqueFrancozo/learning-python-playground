@@ -1,10 +1,10 @@
 # Empacotamento e desempacotamento de dicionários
-a, b = 1, 2
-a, b = b, a
+a, b = 1, 2 # a = 1 / b = 2
+a, b = b, a # invertendo os valores a = b -> a = 2 / b = a -> b = 1
 # print(a, b)
 
 
-# (a1, a2), (b1, b2) = pessoa.items()
+# (a1, a2), (b1, b2) = pessoa.items() # a mesma coisa de fazer com o for
 # print(a1, a2)
 # print(b1, b2)
 
@@ -25,7 +25,6 @@ pessoas_completa = {**pessoa, **dados_pessoa}
 # print(pessoas_completa)
 
 # args e kwargs
-# args (já vimos)
 # kwargs - keyword arguments (argumentos nomeados)
 
 
