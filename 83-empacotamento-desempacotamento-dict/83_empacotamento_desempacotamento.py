@@ -20,7 +20,6 @@ pessoas_completa = {**pessoa, **dados_pessoa} # Cria um novo dicionário fundind
 # args e kwargs
 # kwargs - keyword arguments (argumentos nomeados)
 
-
 def mostro_argumentos_nomeados(*args, **kwargs):
     print('NÃO NOMEADOS:', args)
 
