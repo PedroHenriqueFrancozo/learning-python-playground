@@ -14,7 +14,7 @@ a, b = b, a # invertendo os valores a = b -> a = 2 / b = a -> b = 1
 pessoa = { 'nome': 'Aline', 'sobrenome': 'Souza',}
 dados_pessoa = { 'idade': 16, 'altura': 1.6,}
 
-pessoas_completa = {**pessoa, **dados_pessoa}
+pessoas_completa = {**pessoa, **dados_pessoa} # Cria um novo dicionário fundindo os dois anteriores
 # print(pessoas_completa)
 
 # args e kwargs
