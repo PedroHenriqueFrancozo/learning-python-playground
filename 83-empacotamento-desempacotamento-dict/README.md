@@ -15,3 +15,8 @@ Essa combinação permite que uma função seja extremamente flexível, aceitand
 
 - `*args` **(Non-keyword arguments):** Captura argumentos posicionais e os armazena em uma Tupla.
 - `**kwargs` **(Keyword arguments):** Captura argumentos nomeados e os armazena em um Dicionário.
+
+---
+
+# 📝 Observações:
+**Ordem dos Parâmetros:** Na definição de uma função, a ordem correta deve ser: parametros_comuns, `*args`, parametros_padrao, `**kwargs`.
