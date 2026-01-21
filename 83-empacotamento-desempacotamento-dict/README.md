@@ -6,3 +6,6 @@ O Python permite desempacotar iteráveis de forma direta e realizar a inversão 
 
 - Inversão de Valores: a, b = b, a troca os conteúdos das variáveis simultaneamente.
 - Dicionários: Ao usar .items(), podemos desempacotar as tuplas de chave-valor diretamente em variáveis.
+
+### 2. Junção de Dicionários (`**`)
+Para criar um novo dicionário a partir de outros existentes, utilizamos o operador de desempacotamento de dicionários `**`
