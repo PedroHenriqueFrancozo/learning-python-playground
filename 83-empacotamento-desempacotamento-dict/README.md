@@ -1,0 +1,8 @@
+# 📦 Empacotamento e Desempacotamento (Dicionários & Kwargs)
+Nesta aula, explorei como o Python lida com a distribuição de valores em variáveis e a passagem de múltiplos argumentos nomeados para funções.
+
+### 1. Desempacotamento de Variáveis e Troca de Valores
+O Python permite desempacotar iteráveis de forma direta e realizar a inversão de valores (swap) sem a necessidade de uma variável temporária.
+
+- Inversão de Valores: a, b = b, a troca os conteúdos das variáveis simultaneamente.
+- Dicionários: Ao usar .items(), podemos desempacotar as tuplas de chave-valor diretamente em variáveis.
