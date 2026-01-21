@@ -11,15 +11,8 @@ a, b = b, a # invertendo os valores a = b -> a = 2 / b = a -> b = 1
 # for chave, valor in pessoa.items():
 #     print(chave, valor)
 
-pessoa = {
-    'nome': 'Aline',
-    'sobrenome': 'Souza',
-}
-
-dados_pessoa = {
-    'idade': 16,
-    'altura': 1.6,
-}
+pessoa = { 'nome': 'Aline', 'sobrenome': 'Souza',}
+dados_pessoa = { 'idade': 16, 'altura': 1.6,}
 
 pessoas_completa = {**pessoa, **dados_pessoa}
 # print(pessoas_completa)
