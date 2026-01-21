@@ -14,8 +14,9 @@ Ambos os códigos abaixo produzem o mesmo resultado, mas de formas diferentes:
 **Método 1:** Laço `for` com `append()`
 É o modo manual. Cria uma lista vazia, percorre um intervalo e "empurra" cada item para dentro da lista.
 
-**Sintaxe:** ` lista = []`
-    `for numero in range(10): lista.append(numero)`
+**Sintaxe:** ` lista = []` `for numero in range(10): lista.append(numero)`
 
 **Método 2:** List Comprehension
 É o modo declarativo. Define o que quer (o resultado) diretamente dentro dos colchetes.
+
+**Sintaxe:** `lista = [numero * 2 for numero in range(10)]`
