@@ -1,5 +1,5 @@
 """ 
-Topic:
+Topic: Mapeando e filtrando os dados em List Comprehension
 """
 
 import pprint
