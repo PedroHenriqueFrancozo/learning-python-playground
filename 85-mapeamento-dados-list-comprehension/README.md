@@ -6,3 +6,10 @@ No mapeamento, criamos uma nova lista com o mesmo tamanho da original, mas trans
 
 Usei o desempacotamento de dicionário (`**produto`) para manter os dados originais e alterar apenas a chave `'preco'`.
 
+### 🔀 Condicionais no Mapeamento (Ternário)
+Quando queremos aplicar uma lógica de **"Se... senão..."** ao valor que será inserido na lista, usamos a expressão condicional antes do `for`.
+
+**Estrutura:** `[ <VALOR_SE_VERDADEIRO> if <CONDICAO> else <VALOR_SE_FALSO> for item in iteravel ]`
+
+- **Se o preço for > 20:** O produto recebe um aumento de 5%.
+- **Caso contrário:** O produto é mantido com os dados originais (**produto).
