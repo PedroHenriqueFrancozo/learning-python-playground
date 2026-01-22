@@ -1,5 +1,6 @@
 # 📋List Comprehension: Mapeamento e Lógica
-A **List Comprehension** não serve apenas para replicar dados, mas também para transformá-los (mapear) enquanto a lista é criada.
+A **List Comprehension** não serve apenas para replicar dados, mas também para transformá-los (mapear) enquanto a lista é criada. 
+É uma forma rápida para criar listas a partir de iteráveis.
 
 ### 🗺️ Mapeamento de Dados (Map)
 No mapeamento, criamos uma nova lista com o mesmo tamanho da original, mas transformamos os valores de cada item.
