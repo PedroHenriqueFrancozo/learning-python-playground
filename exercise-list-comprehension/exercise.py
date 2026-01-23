@@ -49,6 +49,13 @@ pares = [
 
 print(pares)
 
+# Nomes curtos 
 
+curtos = [
+    nome for nome in nomes
+    if len(nome) < 5
+]
+
+print(curtos)
 
 
