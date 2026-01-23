@@ -29,6 +29,17 @@ number = [
 
 print(number)
 
+# Gritos todos os nomes da lista com letra maiúsculas
+
+nomes = ['luiz', 'maria', 'aline']
+
+gritos = [
+    nome.upper()
+    for nome in nomes
+]
+
+print(gritos)
+
 # Apenas pares Nível 2
 
 pares = [    
