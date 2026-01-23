@@ -13,5 +13,5 @@ Objetivo: Selecionar apenas o que importa.
 
 1. **Apenas Pares:** Crie uma lista com os números pares de 0 a 20.
 2. **Nomes Curtos:** Dada uma lista de nomes, crie uma nova lista que contenha apenas os nomes que possuem menos de 5 letras.
-3. **Preços Baixos:** Dada a lista precos = [1.50, 4.99, 10.00, 85.20, 3.40], filtre apenas os valores menores que 5 reais.
+3. **Preços Baixos:** Dada a lista precos = [1.50, 4.99, 10.00, 85.20, 3.40], filtre apenas os valores menores que 5 reais.  Desafio: Imagine que você quer dar um desconto de 10% apenas nos produtos que custam mais de R$ 10,00. Os outros continuam com o preço normal.
 

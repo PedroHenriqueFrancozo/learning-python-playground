@@ -58,4 +58,19 @@ curtos = [
 
 print(curtos)
 
+# Preços baixos
 
+precos = [1.50, 4.99, 10.00, 85.20, 3.40]
+
+baratos = [
+    p for p in precos
+    if p < 5
+]
+
+promocao = [
+    p * 0.9
+    if p >= 10 else p for p in precos  
+]
+
+print(baratos)
+print(promocao)
