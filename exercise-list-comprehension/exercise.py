@@ -2,7 +2,7 @@
 Topic: 
 """
 
-# Tabuada de 5 Nível Básico de mapeamento
+# Nivel 1 - Tabuada de 5 Nível Básico de mapeamento
 tabuada = [ n * 5 for n in range(1, 11) ]
 
 print(tabuada)
@@ -29,7 +29,7 @@ gritos = [ nome.upper() for nome in nomes ]
 
 print(gritos)
 
-# Apenas pares Nível 2
+# Nível 2 - Apenas pares
 
 pares = [n for n in range(21) if n % 2 == 0 ]
 
@@ -51,3 +51,12 @@ promocao = [ p * 0.9 if p >= 10 else p for p in precos  ]
 
 print(baratos)
 print(promocao)
+
+# Nível 3 - Par ou ímpar
+
+par_impar = [
+    'Par' if par % 2 == 0 else 'Impar'
+    for par in range(10)
+]
+
+print(par_impar)

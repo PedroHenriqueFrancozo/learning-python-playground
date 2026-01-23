@@ -15,3 +15,8 @@ Objetivo: Selecionar apenas o que importa.
 2. **Nomes Curtos:** Dada uma lista de nomes, crie uma nova lista que contenha apenas os nomes que possuem menos de 5 letras.
 3. **Preços Baixos:** Dada a lista precos = [1.50, 4.99, 10.00, 85.20, 3.40], filtre apenas os valores menores que 5 reais.  Desafio: Imagine que você quer dar um desconto de 10% apenas nos produtos que custam mais de R$ 10,00. Os outros continuam com o preço normal.
 
+# 🟠 Nível 3: Mapeamento Condicional (O `if/else` no início)
+Objetivo: Transformar dados baseando-se em uma regra.
+
+1. **Par ou Ímpar:** Crie uma lista que percorra `range(10)`. Se o número for par, coloque a string `'Par'`; se for ímpar, coloque `'Ímpar'`.
+2. **Status de Nota:** Dada a lista notas = [8.5, 4.2, 7.0, 3.5, 9.0], crie uma lista que retorne `'Aprovado'` se a nota for >= 7$ e `'Reprovado'` caso contrário.
