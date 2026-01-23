@@ -10,6 +10,17 @@ tabuada = [
 
 print(tabuada)
 
+# Números ao quadrado
+
+numeros = [1, 2, 3, 4, 5]
+
+quadrado = [
+    n ** 2
+    for n in numeros
+]
+
+print(quadrado)
+
 # Apenas pares Nível 2
 
 pares = [    
