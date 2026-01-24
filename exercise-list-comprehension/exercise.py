@@ -73,3 +73,21 @@ status_alunos = [
 print(status_alunos)
 
 # 🔴 Nível 4: Desafio 
+
+carrinho = [
+    {'produto': 'Teclado', 'preco': 150, 'setor': 'Tecnologia'},
+    {'produto': 'Mouse', 'preco': 80, 'setor': 'Tecnologia'},
+    {'produto': 'Cadeira', 'preco': 600, 'setor': 'Móveis'},
+    {'produto': 'Monitor', 'preco': 900, 'setor': 'Tecnologia'},
+    {'produto': 'Caneta', 'preco': 5, 'setor': 'Papelaria'},
+]
+
+promocao_tecnologia = [
+    {**item, 'preco': item['preco'] * 0.80}
+    if item['preco'] >= 500 else {**item, 'preco': item['preco'] * 0.90}
+    for item in carrinho
+    if (item['setor'] == 'Tecnologia' )
+]
+
+import pprint
+pprint.pprint(promocao_tecnologia, sort_dicts=False)
