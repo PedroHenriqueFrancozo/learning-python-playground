@@ -36,7 +36,6 @@ carrinho = [
 ]
 
 **O Exercício:** Crie uma nova lista chamada promocao_tecnologia que:
-
 **Filtre:** Apenas produtos do setor 'Tecnologia'.
 **Mapeie:** * Se o preço for maior que 500, aplique 20% de desconto.
 Se for menor ou igual a 500, aplique 10% de desconto.
