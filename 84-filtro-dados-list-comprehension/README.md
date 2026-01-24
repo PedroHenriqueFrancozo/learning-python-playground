@@ -1,5 +1,5 @@
 # 🛠️ List Comprehension: Mapeamento + Filtro
-Combinamos mapeamento e filtro para conseguir realizar operações complexas em uma única linha, mantendo o código poderoso e conciso.
+Nesta aula, compreendi o uso de mapeamento e filtro para conseguir realizar operações complexas em uma única linha, mantendo o código poderoso e conciso.
 
 ### 🧩 A Ordem das Peças
 Para não confundir a lógica:
