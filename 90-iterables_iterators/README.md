@@ -10,3 +10,9 @@ Um Iterator é o objeto que realmente faz o trabalho de "dar o próximo passo". 
 
 - **Responsabilidade:** Entregar um valor por vez.
 - **Mecanismo:** Possui o método `__next__`. Quando os dados acabam, ele levanta a exceção `StopIteration`.
+
+### 3. Generator Expression (Expressão Geradora)
+Enquanto uma List Comprehension cria a lista inteira e a joga na memória RAM imediatamente, o Generator não salva nada na memória além da "lógica" de como criar o próximo item.
+
+- **Sintaxe:** Usa parênteses `()` em vez de colchetes `[]`.
+- **Vantagem:** Economia extrema de memória. É ideal para lidar com milhões de itens.
