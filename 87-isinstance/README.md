@@ -10,3 +10,6 @@ Nesta aula, compreendi o uso do `isinstance()` Verifica se um objeto é uma inst
     - Verifica se um objeto pertence a uma classe ou a alguma de suas subclasses (considera herança).
     - Geralmente, essa é a forma preferida de verificação de tipos em Python idiomático, pois promove flexibilidade e polimorfismo no código.
 
+2. type()
+    - Retorna o tipo de classe exato de um objeto (não considera herança).
+    - Útil quando você precisa garantir que um objeto seja de um tipo específico, não pertencente a subclasses.
