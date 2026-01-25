@@ -3,3 +3,5 @@ Nesta aula, compreendi sobre valores truthy (verdadeiros) e falsy (falsos) deter
 
 1. **Valores Falsy**
 Um valor é considerado **Falsy** se ele for interpretado como `False` em uma estrutura condicional. Geralmente, são valores "**vazios**" ou "**zerados**".
+
+| Categoria | Exemplos Falsy |
