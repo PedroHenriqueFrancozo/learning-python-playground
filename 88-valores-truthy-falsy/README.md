@@ -5,3 +5,5 @@ Nesta aula, compreendi sobre valores truthy (verdadeiros) e falsy (falsos) deter
 Um valor é considerado **Falsy** se ele for interpretado como `False` em uma estrutura condicional. Geralmente, são valores "**vazios**" ou "**zerados**".
 
 | Categoria | Exemplos Falsy |
+| :--- | :--- |
+| Sequências Vazias | `[]` (lista), `{}` (dict), `set()`, `()`, `''` (string) |
