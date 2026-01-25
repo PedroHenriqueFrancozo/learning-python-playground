@@ -16,3 +16,7 @@ Enquanto uma List Comprehension cria a lista inteira e a joga na memória RAM im
 
 - **Sintaxe:** Usa parênteses `()` em vez de colchetes `[]`.
 - **Vantagem:** Economia extrema de memória. É ideal para lidar com milhões de itens.
+
+# ⚠️ dica:
+O `sys.getsizeof()` é uma maneira de **encontrar o consumo de memória atribuida a um único objeto, em bytes**
+
