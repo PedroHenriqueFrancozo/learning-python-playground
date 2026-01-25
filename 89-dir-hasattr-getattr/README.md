@@ -1,7 +1,12 @@
 # 🔎 Inspeção de Objetos: Dir, Hasattr e getattr
 Nesta aula, compreeidi como verificar em tempo de execução quais atributos e métodos um objeto possui.
 
-### Hasattr
+### 1. dir() (O Diretório)
+A função `dir()` retorna uma lista de strings contendo todos os atributos e métodos disponíveis para aquele objeto (incluindo os métodos "mágicos" do Python, como `__init__`, `__str__`, etc.).
+
+- **Uso:** Excelente para debugar e descobrir o que você pode acessar em um objeto desconhecido.
+
+### Hasattr() (A Verificação)
 A função hasattr() verifica se um objeto possui um atributo ou método específico.
 - Usado para inspeção dinâmica de objetos e verificação da existência de atributos, o que previne o `AttributeError` na execução 
 
