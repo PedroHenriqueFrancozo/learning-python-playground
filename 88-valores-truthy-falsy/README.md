@@ -7,3 +7,6 @@ Um valor é considerado **Falsy** se ele for interpretado como `False` em uma es
 | Categoria | Exemplos Falsy |
 | :--- | :--- |
 | Sequências Vazias | `[]` (lista), `{}` (dict), `set()`, `()`, `''` (string) |
+| Números | `0`, `0.0` |
+| Constantes | `None`, `False` |
+| Iteráveis Vazios | `range(0)` |
