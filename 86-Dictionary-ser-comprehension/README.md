@@ -12,7 +12,7 @@ O Set (conjunto) não tem chaves, apenas valores únicos.
 
 - Sintaxe: `{valor for item in iteravel}`
 
-# 🛡️ Segurança de Tipos com isinstance
+### 🛡️ Segurança de Tipos com isinstance
 
 O `isinstance()` é uma função embutida que verifica se um objeto pertence a um determinado tipo (ou a uma tupla de tipos).
 
