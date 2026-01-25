@@ -1,5 +1,4 @@
-# 📋 Dir, Hasattr e getattr
-
+# 🔎 Inspeção de Objetos: Dir, Hasattr e getattr
 Nesta aula, compreeidi como verificar em tempo de execução quais atributos e métodos um objeto possui.
 
 ### Hasattr
