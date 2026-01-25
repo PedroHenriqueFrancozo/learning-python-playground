@@ -15,3 +15,14 @@ Um valor é considerado **Falsy** se ele for interpretado como `False` em uma es
 Qualquer valor que não seja um dos listados acima é considerado **Truthy**.
 
 - Exemplo: `' '` (uma string com um espaço), `[0]` (uma lista com um item), `1` (número diferente de zero).
+
+--- 
+
+# 🔄️ Mutabilidade vs. Imutabilidade
+### Tipos Mutáveis (Alteráveis)
+
+Podem ter seu conteúdo modificado após a criação sem mudar o endereço de memória do objeto.
+
+- `list` (lista)
+- `dict` (dicionário)
+- `set` (conjunto)
