@@ -2,9 +2,15 @@
 Topic:Generator expression, Iterables e Iterators
 """
 
+import sys
+
 iterable = ['Eu', 'Tenho', '__Iter__']
 iterator = iter(iterable)
+lista = [n for n in range(1000000)]
+generator = (n for n in range(1000000))
 
-print(next(iterator))
-print(next(iterator))
-print(next(iterator))
+print(sys.getsizeof(lista))
+print(sys.getsizeof(generator))
+
+for n in generator:
+    print(n)
