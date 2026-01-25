@@ -26,3 +26,13 @@ Podem ter seu conteúdo modificado após a criação sem mudar o endereço de me
 - `list` (lista)
 - `dict` (dicionário)
 - `set` (conjunto)
+
+### Tipos Imutáveis (Não Alteráveis)
+Uma vez criados, não podem ser mudados. Se você "alterar" uma string, o Python na verdade cria uma nova string em um novo endereço de memória.
+
+- `tuple` (tupla)
+- `str` (string)
+- `int`, `float`
+- `bool`
+- `NoneType`
+- `range`
