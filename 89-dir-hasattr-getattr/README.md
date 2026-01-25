@@ -12,3 +12,10 @@ Verifica se um atributo ou método específico existe.
 - **Retorno:** Booleano (`True` ou `False`).
 - **Vantagem:** Evita o erro fatal `AttributeError`.
 
+### 3. getattr() (A Captura Dinâmica)
+Enquanto o `hasattr` apenas checa, o `getattr()` busca o valor do atributo ou a referência do método para que você possa usá-lo.
+
+- **Sintaxe:** `getattr(objeto, 'nome_do_atributo', default)`
+
+# ⚠️ Dica: 
+O `getattr` aceita um terceiro argumento opcional (o default). Se o atributo não existir, em vez de dar erro, ele retorna o que você definiu ali. Ex: `getattr(obj, 'idade', 'Não informada').`
