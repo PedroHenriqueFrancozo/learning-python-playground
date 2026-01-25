@@ -3,9 +3,8 @@
 Nesta aula, compreendi o uso do `isinstance()` Verifica se um objeto é uma instância de uma classe ou tipo especificado, ou de qualquer uma de suas subclasses. Retorna verdadeiro `True` ou `False`
 
 - **Sintaxe:** `isinstance(object, classinfo)`
-
-- **object:** O objeto ou variável a ser verificado.
-- **classinfo:** Uma classe, tipo ou tupla de classes/tipos para comparação. 
+    - **object:** O objeto ou variável a ser verificado.
+    - **classinfo:** Uma classe, tipo ou tupla de classes/tipos para comparação. 
 
 ### 📝 isinstance() vs. type()
 
