@@ -7,16 +7,8 @@ A função `dir()` retorna uma lista de strings contendo todos os atributos e m�
 - **Uso:** Excelente para debugar e descobrir o que você pode acessar em um objeto desconhecido.
 
 ### Hasattr() (A Verificação)
-A função hasattr() verifica se um objeto possui um atributo ou método específico.
-- Usado para inspeção dinâmica de objetos e verificação da existência de atributos, o que previne o `AttributeError` na execução 
+Verifica se um atributo ou método específico existe.
+- **Sintaxe:** `hasattr(objeto, 'nome_do_atributo')`
+- **Retorno:** Booleano (`True` ou `False`).
+- **Vantagem:** Evita o erro fatal `AttributeError`.
 
-- Sintaxe: `hasattr(object, name)`
-
-- **object:** O objeto cujo atributo você deseja verificar.
-- **name:** Uma string representando o nome do atributo (ou método) que você deseja verificar. Deve ser uma string
-
-### Valor de retorno
-A função retorna um valor **booleano**: 
-
-- `True:` se o atributo com o nome fornecido existir no objeto.
-- `False:` se o atributo não existir. 
