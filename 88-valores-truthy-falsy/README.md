@@ -10,3 +10,8 @@ Um valor é considerado **Falsy** se ele for interpretado como `False` em uma es
 | Números | `0`, `0.0` |
 | Constantes | `None`, `False` |
 | Iteráveis Vazios | `range(0)` |
+
+2. Valores Truthy
+Qualquer valor que não seja um dos listados acima é considerado **Truthy**.
+
+- Exemplo: `' '` (uma string com um espaço), `[0]` (uma lista com um item), `1` (número diferente de zero).
