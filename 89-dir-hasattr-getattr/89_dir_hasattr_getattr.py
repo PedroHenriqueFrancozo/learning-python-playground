@@ -3,7 +3,7 @@ Topic: Inspeção de Objetos: Dir, Hasattr e getattr
 """
 
 string = 'Pedro'
-metodo = 'strip'
+metodo = 'upper'
 
 if hasattr(string, metodo):
     print('Existe upper')
