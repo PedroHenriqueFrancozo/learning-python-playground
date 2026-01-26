@@ -20,3 +20,4 @@ Recurso	| Função Comum (`return`) | Generator Function (`yield`)
 | :--- | :--- | :--- | 
 Execução | Vai do início ao fim de uma vez.	| Pode ser pausada e retomada.
 Valores | Retorna um único objeto (ou coleção).	| Pode "gerar" uma sequência de valores.
+Memória | Armazena todos os resultados na RAM. | Armazena apenas a lógica e o estado atual.
