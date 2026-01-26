@@ -1,0 +1,2 @@
+# 🏗️ Generator Functions (Funções Geradoras)
+As Generator Functions são funções que não terminam após retornar um valor. Em vez disso, elas "pausam" sua execução e podem ser retomadas de onde pararam.
