@@ -16,3 +16,5 @@ Quando o próximo valor é solicitado (via `next()` ou um laço `for`), a funç�
 - **Lazy Evaluation (Execução Preguiçosa):** O cálculo só é feito no momento exato em que o valor é necessário.
 - **Infinitude:** É possível criar geradores que nunca terminam (como um contador infinito), já que você decide quando parar de pedir valores.
 
+Recurso	| Função Comum (`return`) | Generator Function (`yield`)
+| :--- | :--- | :--- | 
