@@ -12,3 +12,11 @@ Traz apenas o que precisa diretamente para o seu código.
 
 - **Vantagem:** Sintaxe mais curta e limpa.
 - **Desvantagem:** Pode causar conflito de nomes se você já tiver uma variável com o mesmo nome no seu arquivo.
+
+### 3. Uso de Alias / Apelidos (as)
+Permite renomear o módulo ou o objeto importado dentro do seu arquivo.
+
+- **Aliasing do Módulo:** `import sys as s`
+- **Aliasing do Objeto:** `from sys import platform as pf`
+- **Vantagem:** Resolve conflitos de nomes e encurta comandos.
+- **Cuidado:** Use apelidos intuitivos (ex: `pd` para `pandas`, `np` para `numpy`) para não confundir outros programadores.
