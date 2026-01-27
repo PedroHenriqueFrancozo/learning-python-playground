@@ -12,3 +12,11 @@ Tratar cada erro de uma forma específica:
 - **Exceção Única:** `except ZeroDivisionError:` captura especificamente divisões por zero.
 - **Múltiplas Exceções em um bloco:** `except (TypeError, IndexError):` trata dois tipos de erro da mesma maneira (usando uma tupla).
 - **Classe Base (`Exception`):** O `except Exception:` funciona como um "filtro universal". Ele captura qualquer erro que herde da classe base. **Dica:** Use sempre ao final para evitar que erros desconhecidos derrubem seu sistema.
+
+# 📝 Resumo Técnico: Boas Práticas
+
+Elemento | Função
+| :--- | :--- |
+`try` | Bloco de código "sob observação".
+`except` | tratamento específico para um erro nomeado.
+`Exception `| Captura erros genéricos (último recurso).
