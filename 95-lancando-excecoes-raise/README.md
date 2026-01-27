@@ -1,0 +1,2 @@
+# 🛠️ Lançando Exceções com raise
+Diferente do `except` (que captura erros), o `raise` é usado para criar um erro intencionalmente. Ele interrompe a execução da função e envia a exceção para quem a chamou.
