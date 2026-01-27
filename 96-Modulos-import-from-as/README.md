@@ -31,3 +31,4 @@ Importa todos os objetos do módulo de uma vez.
 Comando | Como usar	| Recomendação
 | :--- | :--- | :--- |
 `import sys` | `sys.platform` | Melhor para clareza
+`from sys  import platform` |	`platform` | Bom para funções muito usadas
