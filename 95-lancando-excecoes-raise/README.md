@@ -7,3 +7,8 @@ Diferente do `except` (que captura erros), o `raise` é usado para criar um erro
 - **Mensagens Personalizadas:** Pode explicar exatamente o que deu errado, tornando o erro muito mais claro para quem está lendo o log.
 - **Consistência:** Garante que as funções recebam apenas os tipos de dados que elas sabem processar.
 
+# 📝 Resumo de Boas Práticas
+
+Regra | Descrição
+| :--- | :--- |
+Ser Específico	| Usar o erro que melhor descreve o problema (ex: `ValueError` para valores errados, `TypeError` para tipos errados).
