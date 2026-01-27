@@ -16,3 +16,9 @@ O finally é executado sempre, ocorrendo um erro ou não. Ele é essencial para 
 
 ### 3. Por que usar o else?
 O bloco `else` serve para separar o código que pode gerar erro (dentro do try) do código que rode apenas se tudo der certo. Isso deixa o try mais limpo e focado apenas na linha perigosa.
+
+# 📝 Resumo de Execução
+
+Situação | try | except | else | finally
+| :--- | :--- | :--- | :--- | 
+Sem erro | Executa | Pula |	Executa	| Executa
