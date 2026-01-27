@@ -19,8 +19,13 @@ O bloco `else` serve para separar o código que pode gerar erro (dentro do try) 
 
 # 📝 Resumo de Execução
 
-Situação | try | except | else | finally
+Situação | `try` | `except` | `else` | `finally`
 | :--- | :--- | :--- | :--- | :--- | 
 Sem erro | Executa | Pula |	Executa	| Executa
 Com erro tratado | Para no erro | Executa | Pula | Executa
 Com erro não tratado | Para no erro | Pula | Pula | Executa (depois quebra)
+
+---
+
+### Hierarquia das exceções
+https://docs.python.org/pt-br/3.6/library/exceptions.html
