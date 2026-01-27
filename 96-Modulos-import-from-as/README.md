@@ -20,3 +20,8 @@ Permite renomear o módulo ou o objeto importado dentro do seu arquivo.
 - **Aliasing do Objeto:** `from sys import platform as pf`
 - **Vantagem:** Resolve conflitos de nomes e encurta comandos.
 - **Cuidado:** Use apelidos intuitivos (ex: `pd` para `pandas`, `np` para `numpy`) para não confundir outros programadores.
+
+### 4. Má Prática: O Wildcard (from modulo import *)
+Importa todos os objetos do módulo de uma vez.
+
+- **Por que evitar?** Polui o código com centenas de nomes que não conhece, podendo sobrescrever as próprias funções sem perceber. Além disso, torna o código difícil de ler (Não sabe de onde veio a função x()).
