@@ -13,3 +13,6 @@ O finally é executado sempre, ocorrendo um erro ou não. Ele é essencial para 
 
 - Se o `try` falhar, é preciso fechar a conexão.
 - Se o `try` funcionar, também precisa fechar a conexão. O `finally` garante que você não deixe "lixo" ou conexões penduradas na memória do servidor.
+
+### 3. Por que usar o else?
+O bloco `else` serve para separar o código que pode gerar erro (dentro do try) do código que rode apenas se tudo der certo. Isso deixa o try mais limpo e focado apenas na linha perigosa.
