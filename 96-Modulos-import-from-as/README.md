@@ -25,3 +25,9 @@ Permite renomear o módulo ou o objeto importado dentro do seu arquivo.
 Importa todos os objetos do módulo de uma vez.
 
 - **Por que evitar?** Polui o código com centenas de nomes que não conhece, podendo sobrescrever as próprias funções sem perceber. Além disso, torna o código difícil de ler (Não sabe de onde veio a função x()).
+
+# 📝 Resumo de Estilos de Importação
+
+Comando | Como usar	| Recomendação
+| :--- | :--- | :--- |
+`import sys` | `sys.platform` | Melhor para clareza
