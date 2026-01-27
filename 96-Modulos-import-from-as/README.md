@@ -33,3 +33,4 @@ Comando | Como usar	| Recomendação
 `import sys` | `sys.platform` | Melhor para clareza
 `from sys  import platform` |	`platform` | Bom para funções muito usadas
 `import sys as s` | `s.platform` | Útil para nomes muito longos
+`from sys import *` | `exit()` | ❌ Evite sempre que possível
