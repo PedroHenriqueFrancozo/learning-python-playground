@@ -20,5 +20,5 @@ O bloco `else` serve para separar o código que pode gerar erro (dentro do try) 
 # 📝 Resumo de Execução
 
 Situação | try | except | else | finally
-| :--- | :--- | :--- | :--- | 
+| :--- | :--- | :--- | :--- | :--- | 
 Sem erro | Executa | Pula |	Executa	| Executa
