@@ -12,3 +12,5 @@ Diferente do `except` (que captura erros), o `raise` é usado para criar um erro
 Regra | Descrição
 | :--- | :--- |
 Ser Específico	| Usar o erro que melhor descreve o problema (ex: `ValueError` para valores errados, `TypeError` para tipos errados).
+Mensagens Úteis | Incluir na mensagem o que foi recebido e o que era esperado.
+Documentação | Se lançar um erro, é bom que quem usar a função saiba disso (comentários ou Docstrings).
