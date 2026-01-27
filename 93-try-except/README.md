@@ -20,3 +20,4 @@ Elemento | Função
 `try` | Bloco de código "sob observação".
 `except` | tratamento específico para um erro nomeado.
 `Exception `| Captura erros genéricos (último recurso).
+Fluxo | O código para a execução no try assim que o primeiro erro ocorre.
