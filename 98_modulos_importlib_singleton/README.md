@@ -18,7 +18,7 @@ A biblioteca padrão `importlib` fornece a função `reload(modulo)`. Ela força
 ---
 
 # 📝 Resumo Técnico
-Comando Frequência Uso Principal
+Comando | Frequência | Uso Principal
 | :--- | :--- | :--- |
 `import` | Uma única vez | Uso padrão em produção.
 `importlib.reload()` | Sob demanda | Desenvolvimento e testes em tempo real.
