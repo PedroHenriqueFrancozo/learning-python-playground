@@ -3,3 +3,6 @@ Modularizar é o ato de dividir seu programa em vários arquivos. Isso facilita 
 
 1. O Módulo Especial __main__
 O primeiro arquivo que você executa no Python é sempre batizado internamente como `__main__`.
+
+- Se imprimir print(__name__) no arquivo que deu "Play", o resultado será __main__.
+- Se esse arquivo importar outro (ex: modularizacao97_m), o nome impresso dentro de modularizacao97_m será o nome do próprio arquivo.
