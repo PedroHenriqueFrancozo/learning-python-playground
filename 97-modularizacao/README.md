@@ -26,6 +26,6 @@ Uma característica importante do Python é que ele importa o módulo apenas uma
 # 📝 Resumo de Comportamento
 Termo | Significado
 | :--- | :--- |
-__name__ | Variável que guarda o nome do módulo.
-__main__ | Nome do módulo que está sendo executado diretamente.
-sys.path | Lista de diretórios onde o Python busca o que você importou.
+`__name__` | Variável que guarda o nome do módulo.
+`__main__` | Nome do módulo que está sendo executado diretamente.
+`sys.path` | Lista de diretórios onde o Python busca o que você importou.
