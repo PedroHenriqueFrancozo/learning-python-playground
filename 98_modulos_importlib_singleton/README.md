@@ -1,1 +1,2 @@
 # 🔄 Recarregando Módulos com importlib.reload
+Nesta aula, compreendi que o Python importa cada módulo apenas uma vez por sessão. Isso serve para otimizar a performance, mas pode ser um problema se você estiver fazendo alterações em um módulo e quiser testá-las sem reiniciar o programa principal.
