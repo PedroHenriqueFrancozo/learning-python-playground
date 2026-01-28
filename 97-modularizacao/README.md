@@ -22,3 +22,9 @@ Uma característica importante do Python é que ele importa o módulo apenas uma
 
 - **Nomes:** Use letras minúsculas e underscores (ex: meu_modulo.py).
 - **Código Executável:** Evite colocar códigos que rodam imediatamente (como print) dentro de módulos, a menos que seja estritamente necessário. O ideal é que módulos contenham definições (funções e classes).
+
+# 📝 Resumo de Comportamento
+Termo | Significado
+| :--- | :--- |
+__name__ | Variável que guarda o nome do módulo.
+__main__ | Nome do módulo que está sendo executado diretamente.
