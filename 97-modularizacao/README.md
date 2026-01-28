@@ -17,3 +17,8 @@ O Python não sai procurando arquivos em todo o seu computador. Ele segue uma li
 
 ### 3. Singleton de Módulos
 Uma característica importante do Python é que ele importa o módulo apenas uma vez por execução, mesmo que escreva `import modulo` dez vezes. Isso é eficiente porque evita que o código do módulo seja reexecutado desnecessariamente.
+
+### 4. Boas Práticas na Criação de Módulos
+
+- **Nomes:** Use letras minúsculas e underscores (ex: meu_modulo.py).
+- **Código Executável:** Evite colocar códigos que rodam imediatamente (como print) dentro de módulos, a menos que seja estritamente necessário. O ideal é que módulos contenham definições (funções e classes).
