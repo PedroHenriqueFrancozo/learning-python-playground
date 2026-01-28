@@ -28,3 +28,4 @@ Termo | Significado
 | :--- | :--- |
 __name__ | Variável que guarda o nome do módulo.
 __main__ | Nome do módulo que está sendo executado diretamente.
+sys.path | Lista de diretórios onde o Python busca o que você importou.
