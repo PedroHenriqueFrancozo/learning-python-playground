@@ -12,3 +12,5 @@ O Python não sai procurando arquivos em todo o seu computador. Ele segue uma li
 
 - **Pasta Atual:** O local onde o arquivo __main__ está.
 - **Pastas Abaixo:** Subpastas da pasta atual (pacotes).
+- **Built-ins:** Pastas onde o Python está instalado.
+- ⚠️ **Limitação:** Por padrão, o Python não olha para pastas acima do arquivo que iniciou a execução.
