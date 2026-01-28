@@ -10,3 +10,7 @@ A biblioteca padrão `importlib` fornece a função `reload(modulo)`. Ela força
 1. Ler o arquivo fonte do módulo novamente.
 2. Recompilar o código.
 3. Atualizar o dicionário do módulo na memória.
+
+# ⚠️ Cuidados Importantes
+**Efeitos Colaterais:** Se o módulo que está recarregando tiver códigos que executam ações (como criar um arquivo ou conectar ao banco de dados), essas ações serão repetidas a cada **reload**.
+**Objetos Existentes:** Se você criou uma instância de uma classe vinda do módulo antes do **reload**, essa instância não será atualizada automaticamente para a nova versão da classe.
