@@ -14,3 +14,6 @@ O Python não sai procurando arquivos em todo o seu computador. Ele segue uma li
 - **Pastas Abaixo:** Subpastas da pasta atual (pacotes).
 - **Built-ins:** Pastas onde o Python está instalado.
 - ⚠️ **Limitação:** Por padrão, o Python não olha para pastas acima do arquivo que iniciou a execução.
+
+### 3. Singleton de Módulos
+Uma característica importante do Python é que ele importa o módulo apenas uma vez por execução, mesmo que escreva `import modulo` dez vezes. Isso é eficiente porque evita que o código do módulo seja reexecutado desnecessariamente.
