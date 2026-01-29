@@ -12,3 +12,6 @@ Existem três maneiras principais de acessar um módulo dentro de um pacote, cad
 
 - Importando os objetos diretamente: from aula99_package.modulo import soma_do_modulo
     - Uso: soma_do_modulo()
+
+### 2. O Controle Especial com __all__
+Quando usar o "wildcard" (**from modulo import ***), o Python importa tudo o que não começa com underline (_). No entanto, pode restringir ou definir exatamente o que será exportado usando a variável global __all__ dentro do módulo.
