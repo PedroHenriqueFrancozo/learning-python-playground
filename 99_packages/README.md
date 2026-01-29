@@ -18,3 +18,11 @@ Quando usar o "wildcard" (**from modulo import ***), o Python importa tudo o que
 
 - **Vantagem:** Evita que variáveis internas ou imports auxiliares de dentro do módulo "poluam" o arquivo de quem está importando.
 - **Nota:** O `__all__` só afeta o comportamento do `import *`. Se você importar especificamente o nome, ele funcionará normalmente.
+
+---
+
+# 📝 Resumo Técnico
+
+Método de Importação | Sintaxe de Uso | Recomendação
+| :--- | :--- | :--- |
+`import pacote.modulo` | `pacote.modulo.func()` | Mais seguro (evita qualquer conflito).
