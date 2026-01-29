@@ -15,3 +15,6 @@ Existem três maneiras principais de acessar um módulo dentro de um pacote, cad
 
 ### 2. O Controle Especial com __all__
 Quando usar o "wildcard" (**from modulo import ***), o Python importa tudo o que não começa com underline (_). No entanto, pode restringir ou definir exatamente o que será exportado usando a variável global __all__ dentro do módulo.
+
+- **Vantagem:** Evita que variáveis internas ou imports auxiliares de dentro do módulo "poluam" o arquivo de quem está importando.
+- **Nota:** O `__all__` só afeta o comportamento do `import *`. Se você importar especificamente o nome, ele funcionará normalmente.
