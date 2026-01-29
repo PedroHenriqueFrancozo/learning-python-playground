@@ -27,3 +27,4 @@ Método de Importação | Sintaxe de Uso | Recomendação
 | :--- | :--- | :--- |
 `import pacote.modulo` | `pacote.modulo.func()` | Mais seguro (evita qualquer conflito).
 `from pacote import modulo` |	`modulo.func()` |	Bom equilíbrio entre clareza e brevidade.
+`from pacote.modulo import *` |	`func()` |	⚠️ Cuidado. Depende do `__all__` para não virar bagunça.
