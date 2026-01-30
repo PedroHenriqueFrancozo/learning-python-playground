@@ -16,3 +16,4 @@ Palavra-chave | O que faz?
 | :--- | :--- |
 local | Variáveis criadas e usadas apenas dentro da função atual.
 nonlocal | Referencia uma variável no escopo da função imediatamente superior (externa).
+global | Referencia uma variável definida no nível principal do script (__main__).
