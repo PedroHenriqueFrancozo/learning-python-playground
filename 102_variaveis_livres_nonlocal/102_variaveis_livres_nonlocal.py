@@ -16,7 +16,7 @@ funcao()
 
 # Utilizando o nonlocal
 
-def concatenar(string_inicial):
+def concatenar(string_inicial): # Cria uma função que acumula strings em uma variável local.
     valor_final = string_inicial
 
     def interna(valor_a_concatenar=''):
@@ -25,6 +25,7 @@ def concatenar(string_inicial):
         return valor_final
     return interna
 
+# Exemplo de uso
 c = concatenar('a')
 print(c('b'))
 print(c('c'))
