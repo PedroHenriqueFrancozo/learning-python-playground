@@ -15,3 +15,4 @@ O `nonlocal` avisa ao Python: "Não crie uma variável local, use a variável do
 Palavra-chave | O que faz?
 | :--- | :--- |
 local | Variáveis criadas e usadas apenas dentro da função atual.
+nonlocal | Referencia uma variável no escopo da função imediatamente superior (externa).
