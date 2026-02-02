@@ -18,3 +18,10 @@ Quando finalmente chama soma(10, 5), o processo se inverte. Está chamando a fun
 3. Isso volta subindo a pilha até o final.
 
 O resultado do `print` será: `15 1 2 3 4 5`
+
+---
+
+# 📝 Resumo de Bolso
+- **Definição:** Ocorre de **baixo para cima** (o `@` mais perto da função roda primeiro).
+- **Execução:** Ocorre de **cima para baixo** (o `@` do topo é o primeiro a ser chamado quando você invoca a função).
+- **Aplicação:** Múltiplos decoradores são úteis para separar responsabilidades (um valida, outro faz log, outro autentica).
