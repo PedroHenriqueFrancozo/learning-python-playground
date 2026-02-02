@@ -1,0 +1,2 @@
+# 📚 Múltiplos Decoradores (Empilhamento)
+Quando usamos vários decoradores em uma única função, o Python cria uma estrutura aninhada. O decorador mais próximo da função (o de baixo) é o primeiro a "abraçá-la", e o decorador no topo é o último.
