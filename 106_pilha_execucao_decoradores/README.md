@@ -13,3 +13,8 @@ No momento em que o Python lê o código (antes de chamar `soma`), ele executa a
 ### 2. A Ordem de Execução (Chamada)
 Quando finalmente chama soma(10, 5), o processo se inverte. Está chamando a função que o decorador '5' criou. O fluxo de retorno do código específico funciona assim:
 
+1. A função do decorador 5 chama a de baixo e recebe o resultado.
+2. Ela pega esse resultado e concatena o seu próprio `nome` ('5').
+3. Isso volta subindo a pilha até o final.
+
+O resultado do `print` será: `15 1 2 3 4 5`
