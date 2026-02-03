@@ -1,3 +1,5 @@
+import copy
+
 # copy, sorted, produtos.sort
 # Exercícios
 # Aumente os preços dos produtos a seguir em 10%
@@ -15,3 +17,14 @@ produtos = [
 
 # Ordene os produtos por preco crescente (do menor para maior)
 # Gere produtos_ordenados_por_preco por deep copy (cópia profunda)
+
+ordem_produtos = sorted(produtos, key=lambda item: item['nome'])
+print(ordem_produtos)
+
+produtos.sort(key=lambda item: item['preco'])
+print(produtos)
+
+# produtos2 = copy.deepcopy(produtos)
+# print(produtos2)
+
+
