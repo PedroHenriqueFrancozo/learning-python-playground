@@ -18,13 +18,14 @@ produtos = [
 # Ordene os produtos por preco crescente (do menor para maior)
 # Gere produtos_ordenados_por_preco por deep copy (cópia profunda)
 
+copia_produtos = copy.deepcopy(produtos)
+print(copia_produtos)
+
 ordem_produtos = sorted(produtos, key=lambda item: item['nome'])
 print(ordem_produtos)
 
 produtos.sort(key=lambda item: item['preco'])
 print(produtos)
 
-# produtos2 = copy.deepcopy(produtos)
-# print(produtos2)
 
 
