@@ -18,7 +18,7 @@ produtos = [
 # Ordene os produtos por preco crescente (do menor para maior)
 # Gere produtos_ordenados_por_preco por deep copy (cópia profunda)
 
-copia_produtos = copy.deepcopy(produtos)
+copia_produtos = copy.copy(produtos)
 print(copia_produtos)
 
 ordem_produtos = sorted(produtos, key=lambda item: item['nome'])
@@ -27,5 +27,9 @@ print(ordem_produtos)
 produtos.sort(key=lambda item: item['preco'])
 print(produtos)
 
+alterando_valor = list(map(lambda p: {**p, 'preco': round(p['preco'] * 1.10)}, produtos))
+print(alterando_valor)
 
+copia_profunda = copy.deepcopy(alterando_valor)
+print(copia_profunda)
 
