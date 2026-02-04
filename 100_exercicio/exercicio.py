@@ -27,9 +27,11 @@ print(ordem_produtos)
 produtos.sort(key=lambda item: item['preco'])
 print(produtos)
 
-alterando_valor = list(map(lambda p: {**p, 'preco': round(p['preco'] * 1.10)}, produtos))
+alterando_valor = [{**p, 'preco': round(p['preco'] * 1.10)} for p in produtos]
 print(alterando_valor)
 
 copia_profunda = copy.deepcopy(alterando_valor)
 print(copia_profunda)
 
+copia_profunda = sorted(copia_profunda, key=lambda item: item['nome'])
+print(copia_profunda)
