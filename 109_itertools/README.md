@@ -28,3 +28,7 @@ count | ✅ Sim | ✅ Sim | É um **Iterador**. Ele sabe qual é o próximo valo
 - **Infinito:** Ele continuará gerando números enquanto houver memória ou até o Python atingir o limite de tamanho de inteiros.
 - **Lazy Evaluation:** Só gera o próximo número quando solicitado.
 - **Uso:** Gerar IDs únicos, índices para elementos de uma lista infinita ou em loops onde a condição de parada depende de um fator externo.
+
+# ⚠️ Cuidado Importante!
+Nunca use o `count` em um loop for sem uma condição de parada (`if` + `break`), a menos que sua intenção seja realmente criar um loop infinito. Caso contrário, seu programa travará (congelará) ao tentar consumir algo que nunca termina.
+
