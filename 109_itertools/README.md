@@ -32,3 +32,9 @@ count | ✅ Sim | ✅ Sim | É um **Iterador**. Ele sabe qual é o próximo valo
 # ⚠️ Cuidado Importante!
 Nunca use o `count` em um loop for sem uma condição de parada (`if` + `break`), a menos que sua intenção seja realmente criar um loop infinito. Caso contrário, seu programa travará (congelará) ao tentar consumir algo que nunca termina.
 
+# 📝 Resumo para o seu README
+
+- `count` é um iterador infinito do módulo itertools.
+- Ele implementa tanto `__iter__` quanto `__next__`.
+- Ao contrário do `range`, ele não aceita um parâmetro de fim (`stop`).
+- É ideal para situações onde o limite da iteração não é conhecido de antemão.
