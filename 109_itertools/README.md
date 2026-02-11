@@ -15,3 +15,8 @@ Objeto | `__iter__` (Iterável) | `__next__` (Iterador) | Natureza
 | :--- | :--- | :--- | :--- |
 `range` | ✅ Sim | ❌ Não | É um **Iterável**, mas não um iterador (ele não "lembra" onde parou sozinho).
 count | ✅ Sim | ✅ Sim | É um **Iterador**. Ele sabe qual é o próximo valor (`next`).
+
+### 3. Comparativo de Comportamento
+`range(start, stop, step)`
+
+- **Finito:** Você precisa definir onde ele para (`stop`).
