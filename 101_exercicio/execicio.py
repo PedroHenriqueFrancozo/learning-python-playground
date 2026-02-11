@@ -7,10 +7,10 @@ def multiplica(x, y):
     return x * y
 
 
-def criar_funcao(funcao, x):
+def criar_funcao(funcao, *args):
     def adiar(y):
         return funcao(x, y)
-    return adiar
+    return adiar(*args)
 
 
 soma_com_cinco = criar_funcao(soma, 5)
