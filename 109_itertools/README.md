@@ -7,3 +7,7 @@ O `count` é um Iterador que gera números sequenciais indefinidamente. Ele não
 - **Parâmetros:**
     - **start:** O número inicial (padrão é 0).
     - **step:** O intervalo entre os números (padrão é 1).
+
+### 2. Diferença Técnica: Iterável vs Iterador
+Usar `hasattr` para checar os métodos mágicos. Aqui está a explicação do resultado:
+
