@@ -20,3 +20,4 @@ count | ✅ Sim | ✅ Sim | É um **Iterador**. Ele sabe qual é o próximo valo
 `range(start, stop, step)`
 
 - **Finito:** Você precisa definir onde ele para (`stop`).
+- **Memória:** Muito eficiente, pois calcula os valores sob demanda, mas tem limites claros.
