@@ -14,3 +14,4 @@ Usar `hasattr` para checar os métodos mágicos. Aqui está a explicação do re
 Objeto | `__iter__` (Iterável) | `__next__` (Iterador) | Natureza
 | :--- | :--- | :--- | :--- |
 `range` | ✅ Sim | ❌ Não | É um **Iterável**, mas não um iterador (ele não "lembra" onde parou sozinho).
+count | ✅ Sim | ✅ Sim | É um **Iterador**. Ele sabe qual é o próximo valor (`next`).
