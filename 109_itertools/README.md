@@ -11,3 +11,5 @@ O `count` é um Iterador que gera números sequenciais indefinidamente. Ele não
 ### 2. Diferença Técnica: Iterável vs Iterador
 Usar `hasattr` para checar os métodos mágicos. Aqui está a explicação do resultado:
 
+Objeto | `__iter__` (Iterável) | `__next__` (Iterador) | Natureza
+| :--- | :--- | :--- | :--- |
