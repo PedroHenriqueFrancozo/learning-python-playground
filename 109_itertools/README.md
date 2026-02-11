@@ -26,3 +26,4 @@ count | ✅ Sim | ✅ Sim | É um **Iterador**. Ele sabe qual é o próximo valo
 `itertools.count(start, step)`
 
 - **Infinito:** Ele continuará gerando números enquanto houver memória ou até o Python atingir o limite de tamanho de inteiros.
+- **Lazy Evaluation:** Só gera o próximo número quando solicitado.
