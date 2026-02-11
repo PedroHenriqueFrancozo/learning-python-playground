@@ -22,3 +22,7 @@ count | ✅ Sim | ✅ Sim | É um **Iterador**. Ele sabe qual é o próximo valo
 - **Finito:** Você precisa definir onde ele para (`stop`).
 - **Memória:** Muito eficiente, pois calcula os valores sob demanda, mas tem limites claros.
 - **Uso:** Quando sabe exatamente o intervalo que precisa percorrer.
+
+`itertools.count(start, step)`
+
+- **Infinito:** Ele continuará gerando números enquanto houver memória ou até o Python atingir o limite de tamanho de inteiros.
