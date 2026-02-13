@@ -15,3 +15,6 @@ Usada quando a **ordem importa**.
 
 ### 3. `product(*iterables, repeat=1)`
 Cria o **Produto Cartesiano** entre os iteráveis fornecidos. É o equivalente a usar loops `for` aninhados para combinar tudo com tudo.
+
+- Útil para gerar combinações de atributos (ex: Cor x Tamanho x Tecido).
+- No seu código, o `*camisetas` (desempacotamento) passa cada sublista como um argumento separado para a função.
