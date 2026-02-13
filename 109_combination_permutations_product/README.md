@@ -18,3 +18,7 @@ Cria o **Produto Cartesiano** entre os iteráveis fornecidos. É o equivalente a
 
 - Útil para gerar combinações de atributos (ex: Cor x Tamanho x Tecido).
 - No seu código, o `*camisetas` (desempacotamento) passa cada sublista como um argumento separado para a função.
+
+
+Função | A Ordem Importa? | Repete Membros Identidade? | Exemplo Simples
+| :--- | :--- | :--- | :--- |
