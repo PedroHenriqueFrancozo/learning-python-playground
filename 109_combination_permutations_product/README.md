@@ -1,0 +1,2 @@
+# 🎲 Combinatória com itertools
+O módulo `itertools` fornece funções otimizadas para gerar sequências matemáticas complexas. As principais diferenças entre elas residem em como tratam a **ordem** dos elementos e a **repetição**.
