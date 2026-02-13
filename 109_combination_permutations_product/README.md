@@ -22,3 +22,4 @@ Cria o **Produto Cartesiano** entre os iteráveis fornecidos. É o equivalente a
 
 Função | A Ordem Importa? | Repete Membros Identidade? | Exemplo Simples
 | :--- | :--- | :--- | :--- |
+`combinations` | ❌ Não | ❌ Não | (A, B) é igual a (B, A)
