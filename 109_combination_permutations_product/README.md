@@ -6,3 +6,8 @@ Usada quando a **ordem não importa**.
 
 - Se tivermos (João, Joana), o par (Joana, João) é considerado o mesmo e não será exibido.
 - Requer o iterável e o tamanho do grupo (`r`).
+
+### 2. permutations(iterable, r)
+Usada quando a **ordem importa**.
+
+- (João, Joana) e (Joana, João) são considerados resultados diferentes.
