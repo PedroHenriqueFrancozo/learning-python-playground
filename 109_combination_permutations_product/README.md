@@ -12,3 +12,6 @@ Usada quando a **ordem importa**.
 
 - (João, Joana) e (Joana, João) são considerados resultados diferentes.
 - Se `r` não for especificado, o padrão é o tamanho total do iterável.
+
+### 3. `product(*iterables, repeat=1)`
+Cria o **Produto Cartesiano** entre os iteráveis fornecidos. É o equivalente a usar loops `for` aninhados para combinar tudo com tudo.
