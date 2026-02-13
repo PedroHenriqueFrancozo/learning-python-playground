@@ -11,3 +11,4 @@ Usada quando a **ordem não importa**.
 Usada quando a **ordem importa**.
 
 - (João, Joana) e (Joana, João) são considerados resultados diferentes.
+- Se `r` não for especificado, o padrão é o tamanho total do iterável.
