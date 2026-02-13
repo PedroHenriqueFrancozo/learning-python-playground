@@ -5,3 +5,4 @@ O módulo `itertools` fornece funções otimizadas para gerar sequências matem�
 Usada quando a **ordem não importa**.
 
 - Se tivermos (João, Joana), o par (Joana, João) é considerado o mesmo e não será exibido.
+- Requer o iterável e o tamanho do grupo (`r`).
